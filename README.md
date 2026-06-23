@@ -29,10 +29,10 @@ inventory check, purchase-order drafting, technician matching, work-order creati
 ## Setup
 
 ```bash
-git clone <this-repo-url>
-cd nik-maintenance
+git clone https://github.com/ANAPARTHI-SAI-DINESH/Dinesh-maintenance.git
+cd Dinesh-maintenance
 python3 -m venv .venv
-source .venv/bin/activate          # Windows: .venv\\Scripts\\activate
+source .venv/bin/activate          # Windows: .venv\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Scripts\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\activate
 pip install -r requirements.txt
 cp .env.example .env               # then paste your Anthropic key into .env
 pytest -q                          # confirm everything works (no key needed)
